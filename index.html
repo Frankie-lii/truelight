@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True Light NGO</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Boxicons CDN for Chevron Icons -->
+    <link href='https://unpkg.com/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Boxicons CDN for Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1>Welcome to True Light Center Organisation</h1>
+            <p>Empowering lives through faith, service, and community.</p>
+
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#get-involved">Get Involved</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-container">
+            <h2>Welcome to True Light Center Organisation</h2>
+            <p>Where offer free Bible classes and provide opportunities for community service through sports, voluntary work, and music. Join us in making a positive impact in the world.</p>
+            <div class="home-buttons">
+                <a href="#programs" class="btn">Learn More About Our Programs</a>
+                <a href="#get-involved" class="btn">Get Involved</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <div class="program-container">
+            <!-- Bible Classes Program -->
+            <div class="program">
+                <h3>Bible Classes</h3>
+                <img src="images/bibleclasses.JPG" alt="Bible Classes">
+                <p>Join our free Bible classes to learn and grow spiritually. We offer classes for all ages and skill levels, from beginners to advanced. Whether you're new to the faith or want to deepen your understanding, our Bible classes are open to
+                    everyone.
+                </p>
+            </div>
+
+            <!-- Sports Program -->
+            <div class="program">
+                <h3>Sports</h3>
+                <img src="images/sports.JPG" alt="Sports">
+                <p>Get active with our sports programs. We offer various activities for all ages, including soccer, basketball, and volleyball. Join us to stay fit, make new friends, and enjoy the thrill of competition!</p>
+            </div>
+
+            <!-- Voluntary Work Program -->
+            <div class="program">
+                <h3>Voluntary Work</h3>
+                <img src="images/VoluntaryWork.JPG" alt="Voluntary Work">
+                <p>Make a difference by volunteering with us. Our voluntary work program gives you the opportunity to help others in need, whether through community outreach, charity events, or local initiatives.</p>
+            </div>
+
+            <!-- Music Program -->
+            <div class="program">
+                <h3>Music</h3>
+                <img src="images/music.JPG" alt="Music">
+                <p>Our music program offers lessons in various instruments and vocal training. Whether you're a beginner or an experienced musician, there's a place for you in our community of music lovers.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="/send_message" method="POST">
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+
+            <!-- Phone Number Field -->
+            <div class="form-group">
+                <label for="phone">Phone Number (Optional)</label>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </div>
+
+            <!-- Contact Method -->
+            <div class="form-group">
+                <label for="contactMethod">Preferred Contact Method</label>
+                <select id="contactMethod" name="contactMethod">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Send Message</button>
+
+            <!-- Response Message -->
+            <div id="responseMessage"></div>
+        </form>
+    </section>
+
+
+    <footer>
+        <h3>True Light Center Organization</h3>
+        <p>Spreading Knowledge, Promoting Peace, and Building a Better Future Together.</p>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="bx bxl-instagram"></i></a>
+            <a href="https://x.com" target="_blank"><i class="bx bxl-x"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="bx bxl-youtube"></i></a>
+        </div>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p>Email: contact@truelight.org</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
